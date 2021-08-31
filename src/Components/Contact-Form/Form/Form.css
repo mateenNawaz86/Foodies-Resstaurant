@@ -1,0 +1,36 @@
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.form-controls {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  color: var(--gray);
+  outline: none;
+  border: 2px solid var(--lightGray);
+  border-radius: 4px;
+}
+
+input {
+  padding: 8px 1rem;
+}
+
+input:hover,
+textarea:hover {
+  border-color: var(--orange);
+}
+
+textarea {
+  resize: vertical;
+  padding: 10px;
+  line-height: 1.7;
+}

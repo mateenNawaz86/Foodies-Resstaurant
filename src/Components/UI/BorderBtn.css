@@ -1,0 +1,33 @@
+.border__btn {
+  background-color: transparent;
+  color: var(--gray);
+  outline: none;
+  border: 2px solid var(--lightGray);
+  width: 12vw;
+  height: 8vh;
+  font-size: 1.2vw;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.border__btn:hover {
+  border: 2px solid var(--orange);
+}
+
+@media(max-width: 780px) {
+  .border__btn {
+    font-size: 1.1rem;
+    width: 12rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 400px) {
+  .border__btn {
+    width: 10rem;
+    font-size: 13px;
+  }
+}

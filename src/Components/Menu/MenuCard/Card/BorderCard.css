@@ -1,0 +1,11 @@
+.BorderCard {
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.26);
+  transition: all 0.3s ease-in-out;
+}
+
+.BorderCard:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 16px 0 rgba(0, 0, 0, 0.26);
+}

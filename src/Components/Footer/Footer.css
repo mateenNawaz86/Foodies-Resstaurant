@@ -1,0 +1,27 @@
+.footer__container {
+  background-color: var(--orange);
+  width: 100%;
+  margin-top: 7rem;
+}
+
+.inner__footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.inner__footer p {
+  color: var(--white);
+  font-weight: 600;
+  user-select: none;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 400px) {
+  .inner__footer p {
+    font-size: 4vw;
+  }
+}

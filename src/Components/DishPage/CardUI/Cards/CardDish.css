@@ -1,0 +1,46 @@
+.outer__card {
+  max-width: 32%;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+.inner-card__container {
+  margin: 0 auto;
+}
+
+.card__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__content {
+  max-width: 90%;
+  margin: 1.5rem auto;
+}
+
+.card__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 780px) {
+  .outer__card {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+

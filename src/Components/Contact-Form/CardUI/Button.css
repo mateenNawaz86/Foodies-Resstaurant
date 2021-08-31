@@ -1,0 +1,20 @@
+.sub-btn {
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  padding: 7px 1rem;
+  color: var(--white);
+  background-color: var(--orange);
+  border-radius: 4px;
+  font-size: 1rem;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-btn:hover {
+  background-color: var(--darkOrange);
+}
+
+

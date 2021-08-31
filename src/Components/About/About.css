@@ -1,0 +1,84 @@
+.about__card {
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.inner__card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.about__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 48%;
+}
+
+.inner__card img {
+  width: 100%;
+}
+
+.about__text {
+  flex-basis: 49%;
+  user-select: none;
+}
+
+.about__text h1 {
+  color: var(--orange);
+  font-size: 3.5vw;
+  margin-bottom: 10px;
+}
+
+.about__text p {
+  line-height: 1.7;
+  font-size: 1.4vw;
+  letter-spacing: 1px;
+  color: var(--gray);
+  margin-bottom: 13px;
+}
+
+/* btns */
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0 1rem;
+}
+
+.fa-truck,
+.fa-dollar-sign,
+.fa-headset {
+  margin-right: 5px;
+  color: var(--orange);
+}
+
+@media (max-width: 780px) {
+  .inner__card {
+    flex-direction: column;
+  }
+
+  .btns {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .about__text {
+    margin-top: 1.5rem;
+  }
+  .about__text h1 {
+    font-size: 5.5vw;
+  }
+
+  .about__text p {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .about__text p {
+    font-size: 3vw;
+  }
+}

@@ -1,0 +1,28 @@
+.form-card {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.form-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.form-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 48%;
+  margin: 1rem;
+}
+
+.contact-form {
+  flex-basis: 49%;
+}
+
+@media (max-width: 780px) {
+  .form-inner {
+    flex-direction: column;
+  }
+}
